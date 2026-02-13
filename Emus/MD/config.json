@@ -1,0 +1,25 @@
+{
+"label":"Sega Genesis",
+"icon":"../_theme/ic-md.png",
+"iconsmall":"../_theme/ic-md_80.png",
+"iconlist":"../_theme/ic-md_32.png",
+"background":"../_theme/bg-md.png",
+"themecolor":"0088CF",
+"launch":"launch.sh",
+"rompath":"../../Roms/Sega_Genesis",
+"imgpath":"../../Imgs/Sega_Genesis",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"bin|gen|md|smd|zip",
+"launchlist":[
+  {
+    "name":"Picodrive",
+    "launch":"launch_picodrive.sh"
+  },
+  {
+    "name":"Genesis Plus GX (Default)",
+    "launch":"launch_genplus.sh"
+  }
+]
+}

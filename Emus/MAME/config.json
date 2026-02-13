@@ -1,0 +1,28 @@
+{
+"label":"MAME",
+"icon":"../_theme/ic-mame.png",
+"iconsmall":"../_theme/ic-mame_80.png",
+"iconlist":"../_theme/ic-mame_32.png",
+"background":"../_theme/bg-mame.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/MAME",
+"imgpath":"../../Imgs/MAME",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip",
+"launchlist":[
+  {
+    "name":"MAME 2000",
+    "launch":"launch_mame2000.sh"
+  },
+  {
+    "name":"MAME 2010",
+    "launch":"launch_mame2010.sh"
+  },
+  {
+    "name":"MAME 2003 Plus (Default)",
+    "launch":"launch_mame2003plus.sh"
+  }
+]
+}

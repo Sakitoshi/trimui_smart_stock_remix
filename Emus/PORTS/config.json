@@ -1,0 +1,14 @@
+{
+"label":"Ports",
+"icon":"../_theme/ic-pcecd.png",
+"iconsmall":"../_theme/ic-ports_80.png",
+"iconlist":"../_theme/ic-ports_32.png",
+"background":"../_theme/bg-ports.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Ports",
+"imgpath":"../../Imgs/Ports",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"sh"
+}

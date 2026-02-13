@@ -1,0 +1,14 @@
+{
+"label":"DOSBox",
+"icon":"../_theme/ic-msdos.png",
+"iconsmall":"../_theme/ic-msdos_80.png",
+"iconlist":"../_theme/ic-msdos_32.png",
+"background":"../_theme/bg-msdos.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/DOSBox",
+"imgpath":"../../Imgs/DOSBox",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"dosz"
+}

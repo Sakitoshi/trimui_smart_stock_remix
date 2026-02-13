@@ -1,0 +1,15 @@
+{
+"label":"Sega GG",
+"icon":"../_theme/ic-gg.png",
+"iconsmall":"../_theme/ic-gg_80.png",
+"iconlist":"../_theme/ic-gg_32.png",
+"background":"../_theme/bg-gg.png",
+"themecolor":"FFFFFF",
+"launch":"launch.sh",
+"rompath":"../../Roms/Sega_Game_Gear",
+"imgpath":"../../Imgs/Sega_Game_Gear",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"gg"
+}

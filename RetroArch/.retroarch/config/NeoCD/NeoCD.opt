@@ -1,0 +1,5 @@
+neocd_bios = "top-sp1.bin (Top Loader)"
+neocd_cdspeedhack = "On"
+neocd_loadskip = "Off"
+neocd_per_content_saves = "Off"
+neocd_region = "USA"

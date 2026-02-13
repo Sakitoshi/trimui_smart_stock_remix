@@ -1,0 +1,16 @@
+{
+"label":"FBNeo",
+"icon":"../_theme/ic-fbneo.png",
+"iconsmall":"../_theme/ic-fbneo_80.png",
+"iconlist":"../_theme/ic-fbneo_32.png",
+"iconsel":"",
+"background":"../_theme/bg-fbneo.png",
+"themecolor":"EC7063",
+"launch":"launch.sh",
+"rompath":"../../Roms/FinalBurn_Neo",
+"imgpath":"../../Imgs/FinalBurn_Neo",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip"
+}

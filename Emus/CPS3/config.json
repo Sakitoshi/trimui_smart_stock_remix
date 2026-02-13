@@ -1,0 +1,14 @@
+{
+"label":"Capcom PS III",
+"icon":"../_theme/ic-cps3.png",
+"iconsmall":"../_theme/ic-cps3_80.png",
+"iconlist":"../_theme/ic-cps3_32.png",
+"background":"../_theme/bg-cps3.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Capcom_Play_System_III",
+"imgpath":"../../Imgs/Capcom_Play_System_III",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip"
+}

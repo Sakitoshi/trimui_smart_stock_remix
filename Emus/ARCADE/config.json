@@ -1,0 +1,36 @@
+{
+"label":"Arcade",
+"icon":"../_theme/ic-arcade.png",
+"iconsmall":"../_theme/ic-arcade_80.png",
+"iconlist":"../_theme/ic-arcade_32.png",
+"background":"../_theme/bg-arcade.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Arcade",
+"imgpath":"../../Imgs/Arcade",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip",
+"launchlist":[
+  {
+    "name":"FBAlpha 2012",
+    "launch":"launch_fba2012.sh"
+  },
+  {
+    "name":"MAME 2000",
+    "launch":"launch_mame2000.sh"
+  },
+  {
+    "name":"MAME 2003 Plus",
+    "launch":"launch_mame2003plus.sh"
+  },
+  {
+    "name":"MAME 2010",
+    "launch":"launch_mame2010.sh"
+  },
+  {
+    "name":"FBNEO (Default)",
+    "launch":"launch_fbneo.sh"
+  }
+]
+}

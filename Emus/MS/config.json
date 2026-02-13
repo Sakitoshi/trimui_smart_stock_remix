@@ -1,0 +1,14 @@
+{
+"label":"Sega MS",
+"icon":"../_theme/ic-ms.png",
+"iconsmall":"../_theme/ic-ms_80.png",
+"iconlist":"../_theme/ic-ms_32.png",
+"background":"../_theme/bg-ms.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Sega_Master_System",
+"imgpath":"../../Imgs/Sega_Master_System",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"sms|rom|sg|zip"
+}

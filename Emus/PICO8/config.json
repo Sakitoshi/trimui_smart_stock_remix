@@ -1,0 +1,25 @@
+{
+"label":"PICO-8",
+"icon":"../_theme/ic-pico8.png",
+"iconsmall":"../_theme/ic-pico8_80.png",
+"iconlist":"../_theme/ic-pico8_32.png",
+"background":"../_theme/bg-pico8.png",
+"themecolor":"00FF88",
+"launch":"launch.sh",
+"rompath":"../../Roms/PICO8",
+"imgpath":"../../Imgs/PICO8",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"p8|png|launch",
+"launchlist":[
+  {
+    "name":"Retro8",
+    "launch":"launch_retro8.sh"
+  },
+  {
+    "name":"Fake-08 (Default)",
+    "launch":"launch_fake08.sh"
+  }
+]
+}

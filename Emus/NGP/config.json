@@ -1,0 +1,24 @@
+{
+"label":"SNK NGP",
+"icon":"../_theme/ic-ngp.png",
+"iconsmall":"../_theme/ic-ngp_80.png",
+"iconlist":"../_theme/ic-ngp_32.png",
+"background":"../_theme/bg-ngp.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/SNK_Neo_Geo_Pocket",
+"imgpath":"../../Imgs/SNK_Neo_Geo_Pocket",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"ngc|ngp|zip",
+"launchlist":[
+  {
+    "name":"Race",
+    "launch":"launch_race.sh"
+  },
+  {
+    "name":"Beetle NGP (Default)",
+    "launch":"launch_beetle_ngp.sh"
+  }
+]
+}

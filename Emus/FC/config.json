@@ -1,0 +1,24 @@
+{
+"label":"Nintendo NES",
+"icon":"../_theme/ic-fc.png",
+"iconsmall":"../_theme/ic-fc_80.png",
+"iconlist":"../_theme/ic-fc_32.png",
+"background":"../_theme/bg-fc.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Nintendo_NES",
+"imgpath":"../../Imgs/Nintendo_NES",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"nes|unf|unif|zip",
+"launchlist":[
+  {
+    "name":"Nestopia",
+    "launch":"launch_nestopia.sh"
+  },
+  {
+    "name":"FCEUmm (Default)",
+    "launch":"launch_fceumm.sh"
+  }
+]
+}

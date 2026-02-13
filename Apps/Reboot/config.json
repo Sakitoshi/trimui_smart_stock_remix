@@ -1,0 +1,7 @@
+{
+"label":"Reboot",
+"icon":"/usr/trimui/res/skin/icon-setting-restore.png",
+"iconsel":"/usr/trimui/res/skin/icon-setting-restore.png",
+"launch":"launch.sh",
+"description":"Reboot system"
+}

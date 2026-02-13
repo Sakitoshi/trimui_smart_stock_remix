@@ -1,0 +1,24 @@
+{
+"label":"Nintendo GB",
+"icon":"../_theme/ic-gb.png",
+"iconsmall":"../_theme/ic-gb_80.png",
+"iconlist":"../_theme/ic-gb_32.png",
+"background":"../_theme/bg-gb.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Nintendo_GB",
+"imgpath":"../../Imgs/Nintendo_GB",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"gb|gbc|zip",
+"launchlist":[
+  {
+    "name":"mGBA",
+    "launch":"launch_mgba.sh"
+  },
+  {
+    "name":"Gambatte (Default)",
+    "launch":"launch_gambatte.sh"
+  }
+]
+}

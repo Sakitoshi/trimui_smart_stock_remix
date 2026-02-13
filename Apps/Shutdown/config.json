@@ -1,0 +1,7 @@
+{
+"label":"Safe Shutdown",
+"icon":"/usr/trimui/res/skin/icon-setting-poweroff.png",
+"iconsel":"/usr/trimui/res/skin/icon-setting-poweroff.png",
+"launch":"launch.sh",
+"description":"Safely power off the system"
+}

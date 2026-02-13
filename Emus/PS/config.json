@@ -1,0 +1,24 @@
+{
+"label":"Sony PS",
+"icon":"../_theme/ic-ps.png",
+"iconsmall":"../_theme/ic-ps_80.png",
+"iconlist":"../_theme/ic-ps_32.png",
+"background":"../_theme/bg-ps.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Sony_Playstation",
+"imgpath":"../../Imgs/Sony_Playstation",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"iso|cue|mdf|pbp|toc|cbn|m3u|chd",
+"launchlist":[
+  {
+    "name":"Boot Bios",
+    "launch":"launch_memcard.sh"
+  },
+  {
+    "name":"PCSX-ReARMed (Default)",
+    "launch":"launch.sh"
+  }
+]
+}

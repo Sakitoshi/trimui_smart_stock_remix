@@ -1,0 +1,14 @@
+{
+"label":"EasyRPG",
+"icon":"../_theme/ic-easyrpg.png",
+"iconsmall":"../_theme/ic-easyrpg_80.png",
+"iconlist":"../_theme/ic-easyrpg_32.png",
+"background":"../_theme/bg-easyrpg.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/EasyRPG",
+"imgpath":"../../Imgs/EasyRPG",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"easyrpg"
+}

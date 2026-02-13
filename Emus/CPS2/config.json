@@ -1,0 +1,14 @@
+{
+"label":"Capcom PS II",
+"icon":"../_theme/ic-cps2.png",
+"iconsmall":"../_theme/ic-cps2_80.png",
+"iconlist":"../_theme/ic-cps2_32.png",
+"background":"../_theme/bg-cps2.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Capcom_Play_System_II",
+"imgpath":"../../Imgs/Capcom_Play_System_II",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip"
+}

@@ -1,0 +1,7 @@
+{
+"label":"DinguxCommander",
+"icon":"icon.png",
+"iconsel":"icon.png",
+"launch":"launch.sh",
+"description":"File browser"
+}

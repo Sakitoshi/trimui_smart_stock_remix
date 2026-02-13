@@ -1,0 +1,14 @@
+{
+"label":"PG Master",
+"icon":"../_theme/ic-pgm.png",
+"iconsmall":"../_theme/ic-pgm_80.png",
+"iconlist":"../_theme/ic-pgm_32.png",
+"background":"../_theme/bg-pgm.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/IGS_PolyGame_Master",
+"imgpath":"../../Imgs/IGS_PolyGame_Master",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip"
+}

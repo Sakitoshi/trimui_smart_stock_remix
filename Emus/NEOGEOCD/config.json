@@ -1,0 +1,24 @@
+{
+"label":"SNK NeoGeo CD",
+"icon":"../_theme/ic-neogeocd.png",
+"iconsmall":"../_theme/ic-neogeocd_80.png",
+"iconlist":"../_theme/ic-neogeocd_32.png",
+"background":"../_theme/bg-neogeocd.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/SNK_Neo_Geo_CD",
+"imgpath":"../../Imgs/SNK_Neo_Geo_CD",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"cue|chd|ccd",
+"launchlist":[
+  {
+    "name":"FBNeo",
+    "launch":"launch_fbneo.sh"
+  },
+  {
+    "name":"NeoCD (Default)",
+    "launch":"launch_neocd.sh"
+  }
+]
+}

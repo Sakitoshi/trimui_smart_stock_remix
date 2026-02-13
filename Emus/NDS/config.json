@@ -1,0 +1,24 @@
+{
+"label":"Nintendo DS",
+"icon":"../_theme/ic-nds.png",
+"iconsmall":"../_theme/ic-nds_80.png",
+"iconlist":"../_theme/ic-nds_32.png",
+"background":"../_theme/bg-nds.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Nintendo_DS",
+"imgpath":"../../Imgs/Nintendo_DS",
+"useswap":1,
+"shortname":0,
+"hidebios":0,
+"extlist":"nds|zip",
+"launchlist":[
+  {
+    "name":"Show hotkeys",
+    "launch":"launch_hotkeys.sh"
+  },
+  {
+    "name":"Drastic (Default)",
+    "launch":"launch.sh"
+  }
+]
+}

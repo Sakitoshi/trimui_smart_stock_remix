@@ -1,0 +1,15 @@
+{
+"label":"Atari Lynx",
+"icon":"../_theme/ic-lynx.png",
+"iconsmall":"../_theme/ic-lynx_80.png",
+"iconlist":"../_theme/ic-lynx_32.png",
+"background":"../_theme/bg-lynx.png",
+"themecolor":"88FF88",
+"launch":"launch.sh",
+"rompath":"../../Roms/Atari_Lynx",
+"imgpath":"../../Imgs/Atari_Lynx",
+"useswap":1,
+"shortname":0,
+"hidebios":1,
+"extlist":"lnx|lyx|o"
+}

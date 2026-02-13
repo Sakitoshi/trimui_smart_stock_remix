@@ -1,0 +1,25 @@
+{
+"label":"Sega CD",
+"icon":"../_theme/ic-mdcd.png",
+"iconsmall":"../_theme/ic-mdcd_80.png",
+"iconlist":"../_theme/ic-mdcd_32.png",
+"background":"../_theme/bg-mdcd.png",
+"themecolor":"0088CF",
+"launch":"launch.sh",
+"rompath":"../../Roms/Sega_CD",
+"imgpath":"../../Imgs/Sega_CD",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"cue|chd|m3u",
+"launchlist":[
+  {
+    "name":"Genesis Plus GX",
+    "launch":"launch_genplus.sh"
+  },
+  {
+    "name":"PicoDrive (Default)",
+    "launch":"launch_picodrive.sh"
+  }
+]
+}

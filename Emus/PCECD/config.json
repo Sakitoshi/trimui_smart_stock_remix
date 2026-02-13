@@ -1,0 +1,14 @@
+{
+"label":"NEC PC Engine CD",
+"icon":"../_theme/ic-pcecd.png",
+"iconsmall":"../_theme/ic-pcecd_80.png",
+"iconlist":"../_theme/ic-pcecd_32.png",
+"background":"../_theme/bg-pcecd.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/NEC_PC_Engine_CD",
+"imgpath":"../../Imgs/NEC_PC_Engine_CD",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"cue|ccd|chd"
+}

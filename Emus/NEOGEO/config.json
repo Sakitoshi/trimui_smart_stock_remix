@@ -1,0 +1,25 @@
+{
+"label":"SNK NeoGeo",
+"icon":"../_theme/ic-neogeo.png",
+"iconsmall":"../_theme/ic-neogeo_80.png",
+"iconlist":"../_theme/ic-neogeo_32.png",
+"background":"../_theme/bg-neogeo.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/SNK_Neo_Geo",
+"imgpath":"../../Imgs/SNK_Neo_Geo",
+"gamelist":"../../Roms/SNK_Neo_Geo/gamelist.xml",
+"useswap":1,
+"shortname":1,
+"hidebios":1,
+"extlist":"zip",
+"launchlist":[
+  {
+    "name":"FBAlpha2012 NeoGeo",
+    "launch":"launch_fba2012.sh"
+  },
+  {
+    "name":"FBNeo (Default)",
+    "launch":"launch_fbneo.sh"
+  }
+]
+}

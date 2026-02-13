@@ -1,0 +1,41 @@
+{
+"label":"Nintendo SNES",
+"icon":"../_theme/ic-sfc.png",
+"iconsmall":"../_theme/ic-sfc_80.png",
+"iconlist":"../_theme/ic-sfc_32.png",
+"background":"../_theme/bg-sfc.png",
+"themecolor":"FF0000",
+"launch":"launch.sh",
+"rompath":"../../Roms/Nintendo_SNES",
+"imgpath":"../../Imgs/Nintendo_SNES",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"smc|fig|sfc|gd3|gd7|dx2|bsx|swc|zip",
+"launchlist":[
+  {
+    "name":"Beetle Supafaust",
+    "launch":"launch_supafaust.sh"
+  },
+  {
+    "name":"Snes9x 2005",
+    "launch":"launch_snes9x2005.sh"
+  },
+  {
+    "name":"Snes9x 2005 Plus",
+    "launch":"launch_snes9x2005plus.sh"
+  },
+  {
+    "name":"Snes9x 2010",
+    "launch":"launch_snes9x2010.sh"
+  },
+  {
+    "name":"Snes9x Latest",
+    "launch":"launch_snes9x.sh"
+  },
+  {
+    "name":"ChimeraSNES (Default)",
+    "launch":"launch_chimera.sh"
+  }
+]
+}
