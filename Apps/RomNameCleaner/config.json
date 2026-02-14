@@ -1,7 +1,7 @@
 {
 "label":"Rom Name Cleaner",
 "icon":"icon.png",
-"iconsel":"icon_small.png",
+"iconsel":"icon_.png",
 "launch":"launch.sh",
-"description":"Removes parentheses and brackets and replaces underscores with spaces from rom names without changing the filenames."
+"description":"Cleans lists preserving filenames"
 }

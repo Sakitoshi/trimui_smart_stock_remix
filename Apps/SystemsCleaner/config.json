@@ -1,0 +1,7 @@
+{
+"label":"Systems Cleaner",
+"icon":"SystemsCleaner.png",
+"iconsel":"SystemsCleaner.png",
+"launch":"launch.sh",
+"description":"Hides systems without games"
+}
