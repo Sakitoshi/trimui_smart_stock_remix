@@ -3,7 +3,8 @@ echo $0 $*
 RA_DIR=/mnt/SDCARD/RetroArch
 EMU_DIR=/mnt/SDCARD/Emus/Ports
 # need this long command to get a clean parent directory path
-PORT_DIR="$( cd -P -- "$(dirname "$0")" && pwd -P )/cave_story"
+PORTS_DIR="$( cd -P -- "$(dirname "$0")" && pwd -P )/.ports"
+PORT_DIR="$PORTS_DIR/cave_story"
 cd $RA_DIR/
 
 $EMU_DIR/cpufreq.sh
