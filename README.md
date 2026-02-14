@@ -109,10 +109,11 @@ There are some enhancements, though:
 
 ### WiFi File Transfer usage:
 
-* Once connected to Wifi, open the *WiFi File Transfer* app.
-* The IP address of your Trimui Smart will be displayed alongside the user and pass *(trimui*)*.*
-* Open your PC web browser and type your Trimui Smart IP address in the address bar.
-* Login with user and pass *trimui*.
+1) Connect to Wifi through the main menu.
+2) Once connected to Wifi, open the *WiFi File Transfer* app.
+3) The IP address of your Trimui Smart will be displayed alongside the user and pass (*trimui*).
+4) Open your PC web browser and type your Trimui Smart IP address in the address bar.
+5) Login with user and pass *trimui*.
 
 
 
@@ -120,10 +121,26 @@ You can also use a WebDAV client (like WinSCP) to connect.
 
 
 
+### EasyRPG usage:
+
+EasyRPG emulator is an old version (0.6.1) that doesn't support *.easyrpg* zipped files.<br />
+So, in order to keep things cleaner in the game list, "fake" *.easyrpg* files must be used.
+
+They are simple text files you can create with notepad and contain the relative path to the *RPG_RT.ldb* file of the game.
+
+Simply follow these steps when copying EasyRPG games:
+
+1) Copy the game folder to the *Roms/EasyRPG* folder (example: *Roms/EasyRPG/Yume_Nikki*).
+2) Create a text file in the *Roms/EasyRPG* folder containing the path to the *RPG_RT.ldb* file of the game (example: *Yume_Nikki/RPG.RT.ldb*).
+3) Rename the text file so its extension is *.easyrpg* (example: *Yume Nikki.easyrpg*).
+
+
+
 ### Known Issues
 
-* When plugging USB-C headphones, audio isn't switched automatically if Retroarch is already running.<br />
-  To fix it, you have to go into Retroarch audio settings and toggle audio output.
+* When plugging USB-C headphones, audio isn't switched automatically if a game is already running.<br />
+  To workaround it on Retroarch, you have to go into Retroarch audio settings and toggle audio output.<br />
+  Menu button > Advanced menu > B button > Settings > Audio > Output > turn audio off and on again.
 * Nintendo DS completely ignores USB-C headphones.
 * Safe shutdown app doesn't turn off the screen once the system has been successfully shutdown.
 
@@ -131,7 +148,7 @@ You can also use a WebDAV client (like WinSCP) to connect.
 
 ## Credits
 
-* cobaltgit and the Quark OS team: borrowed several cores and utilities from them.
-* jutleys: also borrowed things from Tomato OS.
-* rulerofoz: AnotherStockMix for the Trimui Brick served as inspiration for Stock Remix.
-* Steward Fu: for his tweaks to Drastic and several contributions to the handheld community.
+* cobaltgit and the [Quark OS](https://github.com/cobaltgit/Quark) team: borrowed several cores and utilities from them.
+* jutleys: also borrowed things from [Tomato OS](https://github.com/jutleys/Trimui-Smart-Tomato/).
+* rulerofoz: [AnotherStockMix for the Trimui Brick](https://github.com/rulerofoz/AnotherStockMix) served as inspiration for Stock Remix.
+* Steward Fu: for his [tweaks to Drastic](https://github.com/steward-fu/nds) and several contributions to the handheld community.
