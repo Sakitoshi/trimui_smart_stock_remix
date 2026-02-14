@@ -4,18 +4,18 @@ a stock based OS for the Trimui Smart
 
 
 
-##### Main Features
+## Main Features
 
-* Stock based
-* Bloat free
-* Several fixes to basic functionality
-* USB-C headphones support
-* Extra emulators
-* Sane defaults
+* Stock based.
+* Bloat free.
+* Several fixes to basic functionality.
+* USB-C headphones support.
+* Extra emulators.
+* Sane defaults.
 
 
 
-###### Included Emulators
+### Included Emulators
 
 |System|Emulator|
 |-|-|
@@ -56,23 +56,19 @@ a stock based OS for the Trimui Smart
 |Sega Master System|PicoDrive|
 |Sony Playstation|PCSX ReARMed|
 
-###### 
-
-###### Included Ports
+### Included Ports
 
 |Cave Story|
 |-|
 |VVVVVV|
 
-##### 
-
-##### Installation
+## Installation
 
 Simply download the latest version from [releases](https://github.com/Sakitoshi/trimui_smart_stock_remix/releases) and extract it to the root of your MicroSD card.
 
 
 
-###### Usage
+### Usage
 
 All the features of stock firmware are present.
 
@@ -92,27 +88,26 @@ Some highlights are:
 
 There are some enhancements, though:
 
+* USB-C headphones volume can be adjusted.
 * For systems with multiple emulators, the last used emulator will be remembered per-game.
-* An app to clean rom names is included. \*
+* An app to clean rom names is included.\*<br />
   It removes the parentheses and brackets and replaces underscores with spaces from the rom list without changing the filename of the roms.
-* An app to hide unused systems is included. \*\*
+* An app to hide unused systems is included.\*\*
 * An app to explore the microSD card through Wifi is included.
 
 
 
-\* When refreshing roms, open each system rom list once to create the rom lists or the *Rom name cleaner* app will not work.
+\* When refreshing roms, open each system rom list once to create the rom lists or the *Rom name cleaner* app will not work.<br />
+  Alternatively, you can delete the *\*\_cache7.db* file from the *Roms* folder of the systems you want to refresh.<br />
+  You can use the *File Manager* app to do it from your Trimui Smart itself.<br />
+  You still need to open the rom list on the main menu to create the list, but at least you won't need to do it for all systems.
 
-Alternatively, you can delete the *\*\_cache7.db* file from the *Roms* folder of the systems you want to refresh. You can use the *File Manager* app to do it from your Trimui Smart itself.
-
-You still need to open the rom list on the main menu to create the list, but at least you won't need to do it for all systems.
-
-\*\* To show a hidden system, simply copy a rom to it's respective folder and run the app again.
-
-Alternatively, you can manually move the emulator folder inside *Emus/\_DisabledEmus* to *Emus*. You can use the *File Manager* app to do it from your Trimui Smart itself.
+\*\* To show a hidden system, simply copy a rom to it's respective folder and run the app again.<br />
+     Alternatively, you can manually move the emulator folder inside *Emus/\_DisabledEmus* to *Emus*. You can use the *File Manager* app to do it from your Trimui Smart itself.
 
 
 
-###### WiFi File Transfer usage:
+### WiFi File Transfer usage:
 
 * Once connected to Wifi, open the *WiFi File Transfer* app.
 * The IP address of your Trimui Smart will be displayed alongside the user and pass *(trimui*)*.*
@@ -125,16 +120,16 @@ You can also use a WebDAV client (like WinSCP) to connect.
 
 
 
-###### Known Issues
+### Known Issues
 
-* When plugging USB-C headphones, audio isn't switched automatically if Retroarch is already running.
-  to fix it, you have to go into Retroarch audio settings and toggle audio output.
+* When plugging USB-C headphones, audio isn't switched automatically if Retroarch is already running.<br />
+  To fix it, you have to go into Retroarch audio settings and toggle audio output.
 * Nintendo DS completely ignores USB-C headphones.
 * Safe shutdown app doesn't turn off the screen once the system has been successfully shutdown.
 
 
 
-##### Credits
+## Credits
 
 * cobaltgit and the Quark OS team: borrowed several cores and utilities from them.
 * jutleys: also borrowed things from Tomato OS.
