@@ -1,0 +1,24 @@
+{
+"label":"Atari 5200",
+"icon":"../_theme/ic-atari5200.png",
+"iconsmall":"../_theme/ic-atari5200_80.png",
+"iconlist":"../_theme/ic-atari5200_32.png",
+"background":"../_theme/bg-atari5200.png",
+"launch":"launch.sh",
+"rompath":"../../Roms/Atari_5200",
+"imgpath":"../../Imgs/Atari_5200",
+"useswap":0,
+"shortname":0,
+"hidebios":0,
+"extlist":"a52|bin",
+"launchlist":[
+  {
+    "name":"Atari800",
+    "launch":"launch_atari800.sh"
+  },
+  {
+    "name":"a5200 (Default)",
+    "launch":"launch_a5200.sh"
+  }
+]
+}
