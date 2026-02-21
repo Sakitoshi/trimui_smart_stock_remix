@@ -12,7 +12,7 @@ GAME_NAME="${1##*/}"
 GAME_NAME="${GAME_NAME%.*}"
 EMU_NAME=$(cat "${ROM_DIR}/${GAME_NAME}.emu")
 if [ -z "$EMU_NAME" ] || [ "$EMU_NAME" != "$THIS_EMU" ]; then
-  #echo $EMU_NAME > "${ROM_DIR}/${GAME_NAME}.emu"
+  #echo $THIS_EMU > "${ROM_DIR}/${GAME_NAME}.emu"
   # this is the default emu, let's remove the file instead
   rm "${ROM_DIR}/${GAME_NAME}.emu"
 fi

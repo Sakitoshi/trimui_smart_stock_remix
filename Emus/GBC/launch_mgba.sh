@@ -13,7 +13,7 @@ if [ -z "$EMU_NAME" ] || [ "$EMU_NAME" != "$THIS_EMU" ]; then
   EMU_NAME=${0##*/}
   EMU_NAME=${EMU_NAME%.*}
   EMU_NAME=${EMU_NAME:7}
-  echo $EMU_NAME > "${ROM_DIR}/${GAME_NAME}.emu"
+  echo $THIS_EMU > "${ROM_DIR}/${GAME_NAME}.emu"
 fi
 
 $EMU_DIR/cpufreq.sh
