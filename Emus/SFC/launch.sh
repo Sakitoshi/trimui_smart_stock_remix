@@ -1,7 +1,7 @@
 #!/bin/sh
 echo $0 $*
 EMU_DIR=/mnt/SDCARD/Emus/SFC
-DEF_EMU=snes9x2005
+DEF_EMU=chimera
 ROM_DIR="$( cd -P -- "$(dirname "$1")" && pwd -P )"
 GAME_NAME="${1##*/}"
 GAME_NAME="${GAME_NAME%.*}"
